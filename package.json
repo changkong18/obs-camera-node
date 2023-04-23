@@ -1,0 +1,23 @@
+{
+  "name": "obs-camera-node",
+  "version": "1.0.0",
+  "description": "Sends frames to the obs virtual camera",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure &&  node-gyp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "obs",
+    "virtual camera"
+  ],
+  "author": "hongzhi.yuhz@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "node-addon-api": "^6.1.0"
+  },
+  "dependencies": {
+    "numjs": "^0.16.1"
+  }
+}
